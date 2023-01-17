@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Nanum+Myeongjo&family=Noto+Sans&display=swap");
+body {
+  font-family: "Nanum Myeongjo", serif;
+}
+
+section {
+  width: 70%;
+  margin: auto;
+  line-height: 1.8rem;
+}
+section .introduce {
+  text-align: center;
+  line-height: 1.8em;
+  margin: 100px 0 80px;
+  font-size: 14px;
+}
+section #reserve {
+  width: 80%;
+  margin: auto;
+}
+section #reserve h2 {
+  font-size: 20px;
+  margin: 50px 0;
+  text-align: center;
+}
+section #reserve form {
+  font-size: 14px;
+}
+section #reserve form div div {
+  border-bottom: 1px solid #ddd;
+  margin: 20px 0;
+}
+section #reserve form div div div {
+  border: none;
+}
+section #reserve form div .info {
+  color: rgb(174, 174, 174);
+  line-height: 1.5rem;
+}
+section #reserve form .selectD {
+  margin-bottom: 20px;
+}
+section #reserve form .selectD label {
+  margin-right: 20px;
+}
+section #reserve form .selectD button {
+  border: none;
+  background-color: antiquewhite;
+  padding: 3px 5px;
+  transition: all 0.5s;
+}
+section #reserve form .selectD button:hover {
+  background-color: bisque;
+}
+section #reserve form .underMenu {
+  display: none;
+  border-top: 1px solid #ddd;
+}
+section #reserve form .underMenu .selectT .room {
+  margin: 0;
+  padding: 5px 0;
+  font-size: 12px;
+}
+section #reserve form .underMenu .selectT .room:last-child {
+  margin-bottom: 15px;
+}
+section #reserve form .underMenu .selectT .room span {
+  margin-right: 5px;
+}
+section #reserve form .underMenu .selectT .room .time {
+  margin: 0;
+}
+section #reserve form .underMenu .selectT .room .time span {
+  padding: 3px 5px;
+  background-color: rgb(255, 246, 235);
+  border: 1px solid #ddd;
+  cursor: pointer;
+}
+section #reserve form .underMenu .selectT .room .time span:hover {
+  background-color: beige;
+}
+section #reserve form .underMenu .picture label {
+  margin-right: 15px;
+}
+section #reserve form .underMenu .add div {
+  margin: 0 0 20px;
+}
+section #reserve form .underMenu .add div .countBox {
+  display: inline-block;
+  margin-bottom: 0;
+}
+section #reserve form .underMenu .add div .countBox input {
+  background-color: rgb(247, 220, 187);
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  border: none;
+  text-align: center;
+}
+section #reserve form .underMenu .add div .countBox .count {
+  width: 30px;
+  background-color: #fff;
+  cursor: auto;
+}
+section #reserve form .underMenu .add div .countBox .count:focus {
+  border: 1px solid #ddd;
+}
+section #reserve form .underMenu .add .check1 span:first-child {
+  margin-right: 160px;
+}
+section #reserve form .underMenu .add .check1 .countBox span {
+  margin: 0;
+}
+section #reserve form .underMenu .add .check2 {
+  margin-bottom: 20px;
+}
+section #reserve form .underMenu .add .check2 label input {
+  vertical-align: middle;
+}
+section #reserve form .underMenu .add .check2 label span {
+  margin-left: 5px;
+}
+section #reserve form .underMenu .add .check2 .countBox {
+  margin-left: 60px;
+}
+section #reserve form .underMenu .howToUse {
+  padding-bottom: 20px;
+  line-height: 1.5rem;
+}
+section #reserve form .underMenu .howToUse h3 {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+section #reserve form .underMenu .howToUse p {
+  margin: 8px 0;
+  font-size: 16px;
+}
+section #reserve form .underMenu .howToUse p:last-child {
+  margin: 0;
+}
+section #reserve form .underMenu .howToUse p span {
+  font-weight: normal;
+  display: block;
+  color: rgb(174, 174, 174);
+  font-size: 14px;
+}
+section #reserve form .btn {
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+section #reserve form .btn button {
+  padding: 10px 150px;
+  font-size: 22px;
+  border: none;
+  background-color: #383838;
+  letter-spacing: 0.2rem;
+  color: #fff;
+  border-radius: 2px;
+  font-family: "Nanum Myeongjo", serif;
+  transition: all 0.3s;
+}
+section #reserve form .btn button:hover {
+  background-color: #292929;
+}/*# sourceMappingURL=reserve.css.map */

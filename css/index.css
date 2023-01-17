@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Nanum+Myeongjo&family=Noto+Sans&display=swap");
+body {
+  font-family: "Nanum Myeongjo", serif;
+}
+
+#sectWrap section {
+  overflow: hidden;
+  height: 100vh;
+  position: relative;
+}
+#sectWrap section .flexslider {
+  position: absolute;
+}
+#sectWrap section .flexslider .slider {
+  width: 50%;
+}
+#sectWrap section .flexslider .slider .bg {
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: antiquewhite;
+}
+#sectWrap section .flexslider .slider .bg img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center center;
+     object-position: center center;
+  max-height: 200%;
+}
+#sectWrap section .flexslider .tit {
+  height: 100%;
+  background: rgba(255, 255, 255, 0.6);
+  text-align: center;
+  transition: all 0.8s;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 99;
+}
+#sectWrap section .flexslider .tit p::before {
+  font-size: 40px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.8);
+  letter-spacing: 0.3rem;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%);
+  left: 50%;
+  z-index: 999;
+}
+#sectWrap section #part1 {
+  top: 0;
+  left: 0;
+  right: 50%;
+}
+#sectWrap section #part1 .tit p::before {
+  content: "Slef Black";
+}
+#sectWrap section #part2 {
+  top: 0;
+  left: 50%;
+  right: 0;
+}
+#sectWrap section #part2 .tit p::before {
+  content: "Slef Color";
+}
+
+footer {
+  margin-top: 0px;
+}/*# sourceMappingURL=index.css.map */

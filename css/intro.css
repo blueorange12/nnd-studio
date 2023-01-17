@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Nanum+Myeongjo&family=Noto+Sans&display=swap");
+body {
+  font-family: "Nanum Myeongjo", serif;
+}
+
+section {
+  width: 70%;
+  overflow: hidden;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+section .introduce {
+  text-align: center;
+  line-height: 2em;
+  margin-top: 180px;
+}
+section .picture .title {
+  display: flex;
+  justify-content: center;
+  margin-top: 6rem;
+}
+section .picture .title a {
+  padding: 15px;
+}
+section .picture .picGird #black {
+  margin-top: 3rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 0.8rem;
+}
+section .picture .picGird #black .item {
+  position: relative;
+}
+section .picture .picGird #black .item img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+section .picture .picGird #black .item .imgEffect {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.3);
+  opacity: 0;
+}
+section .picture .picGird #black .item .imgEffect:hover {
+  opacity: 1;
+  transition: 0.5s all;
+}
+section .picture .picGird #color {
+  margin-top: 3rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 0.8rem;
+}
+section .picture .picGird #color .item {
+  position: relative;
+}
+section .picture .picGird #color .item img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+section .picture .picGird #color .item .imgEffect {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.3);
+  opacity: 0;
+}
+section .picture .picGird #color .item .imgEffect:hover {
+  opacity: 1;
+  transition: 0.5s all;
+}/*# sourceMappingURL=intro.css.map */

@@ -1,0 +1,74 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Nanum+Myeongjo&family=Noto+Sans&display=swap');
+// font-family: 'Nanum Gothic', sans-serif;
+// font-family: 'Nanum Myeongjo', serif;
+// font-family: 'Noto Sans', sans-serif;
+
+body {font-family: 'Nanum Myeongjo', serif;}
+
+section {
+    width: 80%; font-size: 14px; margin: 120px auto 0; 
+    #toggleMenu {
+        display: flex; justify-content: center;
+        margin-bottom: 6rem; color:#797986;
+        div {
+            a {
+                padding: 15px; cursor: pointer;
+                &:hover {text-decoration: underline; color:#8f8f9b; text-underline-position: under;}
+            }
+            
+        }
+    }
+    #togglePage { font-family: 'Noto Sans'; 
+        #notice{text-align: center;
+            h2 {font-size: 25px; letter-spacing: 0.3rem; font-weight: normal; 
+                margin-bottom: 0.5rem;}
+            .sub {color:#797986; margin-bottom: 5rem; }
+            .table {width: 70%; margin: auto;
+                .cellName { border-top: 1px solid #000; display: flex;
+                    span { padding: 10px 7px;
+                        &:first-child {flex: 1 1 5%; }
+                        &:nth-child(2) { flex:1 1 85%;}
+                        &:last-child {flex: 1 1 10%;}
+                    }
+                }
+                .rows { display: flex; flex-direction: column-reverse;
+                    div { border-top: 0.5px solid #dbdbdb; display: flex; 
+                        span {padding: 10px 7px;
+                            &:first-child {flex: 1 1 5%; }
+                            &:nth-child(2) { flex:1 1 85%; text-align: left; }
+                            &:last-child {flex: 1 1 10%; color: #B1AFCA; font-size: 12px;}
+                        }
+                    }
+                }
+            }
+        }
+        #qna{ text-align: center; display: none;
+            h2 {font-size: 25px; letter-spacing: 0.3rem; font-weight: normal;
+                margin-bottom: 0.5rem;}
+            .sub {font-size: 14px; color:#797986; margin-bottom: 5rem; }
+            .table { width: 70%; margin: auto;
+                .cellName { border-top: 1px solid #000; display: flex;
+                    span { padding: 10px 7px; 
+                        &:first-child {flex: 1 1 5%; }
+                        &:nth-child(2) { flex:1 1 55%;}
+                        &:nth-child(3) {flex: 1 1 15%}
+                        &:nth-child(4) {flex: 1 1 15%}
+                        &:last-child {flex: 1 1 10%;}
+                    }
+                }
+                .rows { display: flex; flex-direction: column-reverse;
+                    div { border-top: 0.5px solid #dbdbdb; display: flex; 
+                        span {padding: 10px 7px;
+                            &:first-child {flex: 1 1 5%; }
+                            &:nth-child(2) { flex:1 1 55%; text-align: left;}
+                            &:nth-child(3) {flex: 1 1 15%; color: #B1AFCA; font-size: 12px;}
+                            &:nth-child(4) {flex: 1 1 15%; color: #B1AFCA; font-size: 12px;}
+                            &:last-child {flex: 1 1 10%; color: #B1AFCA; font-size: 12px;}
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

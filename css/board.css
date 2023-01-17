@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Nanum+Myeongjo&family=Noto+Sans&display=swap");
+body {
+  font-family: "Nanum Myeongjo", serif;
+}
+
+section {
+  width: 80%;
+  font-size: 14px;
+  margin: 120px auto 0;
+}
+section #toggleMenu {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 6rem;
+  color: #797986;
+}
+section #toggleMenu div a {
+  padding: 15px;
+  cursor: pointer;
+}
+section #toggleMenu div a:hover {
+  text-decoration: underline;
+  color: #8f8f9b;
+  text-underline-position: under;
+}
+section #togglePage {
+  font-family: "Noto Sans";
+}
+section #togglePage #notice {
+  text-align: center;
+}
+section #togglePage #notice h2 {
+  font-size: 25px;
+  letter-spacing: 0.3rem;
+  font-weight: normal;
+  margin-bottom: 0.5rem;
+}
+section #togglePage #notice .sub {
+  color: #797986;
+  margin-bottom: 5rem;
+}
+section #togglePage #notice .table {
+  width: 70%;
+  margin: auto;
+}
+section #togglePage #notice .table .cellName {
+  border-top: 1px solid #000;
+  display: flex;
+}
+section #togglePage #notice .table .cellName span {
+  padding: 10px 7px;
+}
+section #togglePage #notice .table .cellName span:first-child {
+  flex: 1 1 5%;
+}
+section #togglePage #notice .table .cellName span:nth-child(2) {
+  flex: 1 1 85%;
+}
+section #togglePage #notice .table .cellName span:last-child {
+  flex: 1 1 10%;
+}
+section #togglePage #notice .table .rows {
+  display: flex;
+  flex-direction: column-reverse;
+}
+section #togglePage #notice .table .rows div {
+  border-top: 0.5px solid #dbdbdb;
+  display: flex;
+}
+section #togglePage #notice .table .rows div span {
+  padding: 10px 7px;
+}
+section #togglePage #notice .table .rows div span:first-child {
+  flex: 1 1 5%;
+}
+section #togglePage #notice .table .rows div span:nth-child(2) {
+  flex: 1 1 85%;
+  text-align: left;
+}
+section #togglePage #notice .table .rows div span:last-child {
+  flex: 1 1 10%;
+  color: #B1AFCA;
+  font-size: 12px;
+}
+section #togglePage #qna {
+  text-align: center;
+  display: none;
+}
+section #togglePage #qna h2 {
+  font-size: 25px;
+  letter-spacing: 0.3rem;
+  font-weight: normal;
+  margin-bottom: 0.5rem;
+}
+section #togglePage #qna .sub {
+  font-size: 14px;
+  color: #797986;
+  margin-bottom: 5rem;
+}
+section #togglePage #qna .table {
+  width: 70%;
+  margin: auto;
+}
+section #togglePage #qna .table .cellName {
+  border-top: 1px solid #000;
+  display: flex;
+}
+section #togglePage #qna .table .cellName span {
+  padding: 10px 7px;
+}
+section #togglePage #qna .table .cellName span:first-child {
+  flex: 1 1 5%;
+}
+section #togglePage #qna .table .cellName span:nth-child(2) {
+  flex: 1 1 55%;
+}
+section #togglePage #qna .table .cellName span:nth-child(3) {
+  flex: 1 1 15%;
+}
+section #togglePage #qna .table .cellName span:nth-child(4) {
+  flex: 1 1 15%;
+}
+section #togglePage #qna .table .cellName span:last-child {
+  flex: 1 1 10%;
+}
+section #togglePage #qna .table .rows {
+  display: flex;
+  flex-direction: column-reverse;
+}
+section #togglePage #qna .table .rows div {
+  border-top: 0.5px solid #dbdbdb;
+  display: flex;
+}
+section #togglePage #qna .table .rows div span {
+  padding: 10px 7px;
+}
+section #togglePage #qna .table .rows div span:first-child {
+  flex: 1 1 5%;
+}
+section #togglePage #qna .table .rows div span:nth-child(2) {
+  flex: 1 1 55%;
+  text-align: left;
+}
+section #togglePage #qna .table .rows div span:nth-child(3) {
+  flex: 1 1 15%;
+  color: #B1AFCA;
+  font-size: 12px;
+}
+section #togglePage #qna .table .rows div span:nth-child(4) {
+  flex: 1 1 15%;
+  color: #B1AFCA;
+  font-size: 12px;
+}
+section #togglePage #qna .table .rows div span:last-child {
+  flex: 1 1 10%;
+  color: #B1AFCA;
+  font-size: 12px;
+}/*# sourceMappingURL=board.css.map */
